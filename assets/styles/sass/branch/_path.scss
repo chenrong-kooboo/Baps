@@ -1,0 +1,53 @@
+/* FONT PATH
+ * -------------------------- */
+
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('#{$FontAwesomePath}/fontawesome-webfont.eot?v=#{$FontAwesomeVersion}');
+  src: url('#{$FontAwesomePath}/fontawesome-webfont.eot?#iefix&v=#{$FontAwesomeVersion}') format('embedded-opentype'),
+    url('#{$FontAwesomePath}/fontawesome-webfont.woff?v=#{$FontAwesomeVersion}') format('woff'),
+    url('#{$FontAwesomePath}/fontawesome-webfont.ttf?v=#{$FontAwesomeVersion}') format('truetype'),
+    url('#{$FontAwesomePath}/fontawesome-webfont.svg#fontawesomeregular?v=#{$FontAwesomeVersion}') format('svg');
+//  src: url('#{$FontAwesomePath}/FontAwesome.otf') format('opentype'); // used when developing fonts
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FontAvenirRoman';
+  src: url('#{$FontAvenirRoman}/AvenirLTStdRoman.eot?v=#{$FontAvenirRomanVersion}');
+  src: url('#{$FontAvenirRoman}/AvenirLTStdRoman.eot?#iefix&v=#{$FontAvenirRomanVersion}') format('embedded-opentype'),
+	   url('#{$FontAvenirRoman}/AvenirLTStdRoman.woff2?v=#{$FontAvenirRomanVersion}') format('woff2'),
+       url('#{$FontAvenirRoman}/AvenirLTStdRoman.woff?v=#{$FontAvenirRomanVersion}') format('woff'),
+       url('#{$FontAvenirRoman}/AvenirLTStdRoman.ttf?v=#{$FontAvenirRomanVersion}') format('truetype'),
+       url('#{$FontAvenirRoman}/AvenirLTStdRoman.svg#fontawesomeregular?v=#{$FontAvenirRomanVersion}') format('svg');
+//     src: url('#{$FontAvenirRoman}/AvenirLTStdRoman.otf') format('opentype'); // used when developing fonts
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FontAvenirBlack';
+  src: url('#{$FontAvenirBlack}/AvenirLTStdBlack.eot?v=#{$FontAvenirBlackVersion}');
+  src: url('#{$FontAvenirBlack}/AvenirLTStdBlack.eot?#iefix&v=#{$FontAvenirBlackVersion}') format('embedded-opentype'),
+  	   url('#{$FontAvenirBlack}/AvenirLTStdBlack.woff2?v=#{$FontAvenirBlackVersion}') format('woff2'),
+       url('#{$FontAvenirBlack}/AvenirLTStdBlack.woff?v=#{$FontAvenirBlackVersion}') format('woff'),
+       url('#{$FontAvenirBlack}/AvenirLTStdBlack.ttf?v=#{$FontAvenirBlackVersion}') format('truetype'),
+       url('#{$FontAvenirBlack}/AvenirLTStdBlack.svg#fontawesomeregular?v=#{$FontAvenirBlackVersion}') format('svg');
+//     src: url('#{$FontAvenirBlack}/AvenirLTStdBlack.otf') format('opentype'); // used when developing fonts
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FontGeorgia';
+  src: url('#{$FontGeorgia}/georgia.eot?v=#{$FontGeorgiaVersion}');
+  src: url('#{$FontGeorgia}/georgia.eot?#iefix&v=#{$FontGeorgiaVersion}') format('embedded-opentype'),
+       url('#{$FontGeorgia}/georgia.woff2?v=#{$FontGeorgiaVersion}') format('woff2'),
+       url('#{$FontGeorgia}/georgia.woff?v=#{$FontGeorgiaVersion}') format('woff'),
+       url('#{$FontGeorgia}/georgia.ttf?v=#{$FontGeorgiaVersion}') format('truetype'),
+       url('#{$FontGeorgia}/georgia.svg#fontawesomeregular?v=#{$FontGeorgiaVersion}') format('svg');
+//  src: url('#{$FontGeorgia}/georgia.otf') format('opentype'); // used when developing fonts
+  font-weight: normal;
+  font-style: normal;
+}

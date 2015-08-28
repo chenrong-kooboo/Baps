@@ -1,0 +1,103 @@
+$icons: sprite-map("share/*.png");
+
+@mixin iconsbg() {
+    background-image: $icons;
+}
+
+// pixels to rems
+$baseFontSize: 100 !default;
+
+@function pxToRem($px) {
+    @return $px / $baseFontSize * 1rem;
+}
+
+// icon
+// --------------------------
+
+@mixin icon($icon) {
+  @include icon-FontAwesome();
+  content: $icon;
+}
+
+@mixin icon-FontAwesome() {
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: inherit;
+  -webkit-font-smoothing: antialiased;
+  *margin-right: .3em; // fixes ie7 issues
+}
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -o-border-radius: $radius;
+  border-radius: $radius;
+}
+
+@mixin backgroundSize($size) {
+  -webkit-background-size: $size;
+  -moz-background-size: $size;
+  -o-background-size: $size;
+  background-size: $size;
+}
+
+// @mixin gradient($start-x: top !default,$end-x: bottom !default,$from: #fff !default,$to: #000 !default){
+//     background-image: -webkit-linear-gradient($start-x $end-x, $from , $to); /* Safari 5.1 - 6.0 */
+//     background-image: -o-linear-gradient($start-x $end-x, $from, $to); /* Opera 11.1 - 12.0 */
+//     background-image: -moz-linear-gradient($start-x $end-x, $from, $to); /* Firefox 3.6 - 15 */
+//     background-image: linear-gradient($start-x $end-x, $from , $to); 
+// }
+
+@mixin scale($x, $y) {
+  transform:scale($x, $y);
+  -ms-transform:scale($x, $y);
+  -moz-transform:scale($x, $y);
+  -webkit-transform:scale($x, $y);
+  -o-transform:scale($x, $y);
+}
+
+@mixin appearance($app) {
+  -webkit-appearance: $app;
+  -moz-appearance: $app;
+  -o-appearance: $app;
+  appearance: $app;
+}
+
+@mixin icon-stack($width: 2em, $height: 2em, $top-font-size: 1em, $base-font-size: 2em) {
+  .icon-stack {
+    position: relative;
+    display: inline-block;
+    width: $width;
+    height: $height;
+    line-height: $width;
+    vertical-align: -35%;
+    [class^="icon-"],
+    [class*=" icon-"] {
+      display: block;
+      text-align: center;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      font-size: $top-font-size;
+      line-height: inherit;
+      *line-height: $height;
+    }
+    .icon-stack-base {
+      font-size: $base-font-size;
+      *line-height: #{$height / $base-font-size}em;
+    }
+  }
+}
+
+@mixin word-space($nowrap:true){
+  @if $nowrap {
+    white-space: nowrap;
+    overflow:hidden; 
+    text-overflow:ellipsis;
+  }@else {
+    overflow: visible;
+    word-break:break-all; 
+  }
+
+}

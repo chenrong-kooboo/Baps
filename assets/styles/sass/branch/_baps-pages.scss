@@ -1,0 +1,493 @@
+/* baps-pages Pages
+ * =================================== */
+
+/*-------baps-head--------*/
+$baps-head-H : 80px !default;
+$baps-nav-H  : 64px !default;
+.baps-head{
+	font-size: 12px;
+	min-height: $baps-head-H;
+	line-height: $baps-head-H;
+	background-color: #000;
+    border-bottom: 1px solid transparent;
+	
+	h1{
+		float: left;
+		font-size: 40px;
+		line-height: $baps-head-H;
+		font-family: 'FontGeorgia';
+		font-style: italic;
+		color: #fff;
+	}
+
+    ul.top-account{
+		float: right;
+
+    	>li{
+    		display: inline-block;
+    		line-height: 1;
+
+			a{
+				display: inline-block;
+    			padding: 0 5px;
+    			color: #fff;
+    			text-decoration: underline;
+			}
+    	}
+    }
+}
+/*-------nav-wrapper--------*/
+.baps-nav{
+	position: relative;
+	background: #f8f8f8;
+	z-index: 10;
+
+	[class^="icon-"],
+	[class*=" icon-"]{
+		&:before{
+			float: right;
+			margin-left: 10px;
+		}
+	}
+
+	a{text-decoration: none;}
+
+    .nav-area{
+		>ul{
+			$visibility: "hidden" !default;
+			$background-hover: #022a3b;
+
+			>li{
+				position: relative;
+				float: left;
+				font-family: 'FontAvenirBlack';
+
+				&.select,
+				&:hover{
+					.parent-menu{
+						color: #7c4ea7;
+					}
+
+					.child-menu{
+						visibility: visible;
+						opacity: 1;
+					}
+				}
+
+				.parent-menu{
+					display: block;
+					padding: 23px 18px;
+					color: #313131;
+					cursor: pointer;
+					font-size: 16px;
+					font-weight: bold;
+					line-height: 1;
+					text-transform: uppercase;
+					border-top: 2px solid transparent;
+					background-color: transparent;
+				}
+
+				.child-menu{
+					position: absolute;
+					left: 0;
+					top: 50px;
+					width: 220px;
+					background: $background-hover;
+					visibility: #{$visibility};
+					opacity: 0;
+					@include word-space(true);
+
+					>a{
+						display: block;
+						padding: 15px 10px;
+						color: #fff;
+
+						&:hover{
+							padding-left: 20px;
+							background: #06a7ea; 
+							@include ea-transition(.4s ease-in);
+						}
+					}
+				}
+
+			}
+		}
+    }
+}
+
+/*-------home--------*/
+.baps-home{
+	&:before{
+		position: absolute;
+		width: 100%;
+		height: 656px;
+		content: "";
+		background: url(../../images/baps/BG-photo-copy.jpg) center 0 no-repeat;
+		background-attachment:fixed; 
+		@include backgroundSize(cover);
+		z-index: -1;
+		overflow: hidden;
+	}
+
+	.home-tit{
+		padding: 144px 0 45px;
+		font-size: 64px;
+		color: #fff;
+		font-family: "FontGeorgia";
+		font-style: italic;
+		text-align: center;
+	}
+}
+/*-------search--------*/
+.baps-search{
+	@extend .baps-home;
+	position: relative;
+	padding-bottom: 95px;
+	background-color: #f2f2f2; 
+	z-index: 0;
+	
+	&:before{
+		height: 128px;
+	}
+}
+/*-------detail--------*/
+.baps-detail{
+	@extend .baps-home;
+	position: relative;
+	padding-bottom: 95px;
+	background-color: #f2f2f2; 
+	z-index: 0;
+	
+	&:before{
+		height: 160px;
+	}
+
+	.row{
+		padding-top: 45px;
+	}
+}
+/*-------filter-container--------*/
+.filter-container{
+	position: relative;
+	margin-top: 100px;
+	min-height: 1000px;
+	overflow: hidden;
+
+	.isotope-item{
+		position: absolute;
+		width: 33.3333%;
+		padding: 9px;
+		font-family: "FontGeorgia";
+		@include ea-transition(.1s ease-in);
+
+		figure{
+			background: #fff;
+			border: 1px solid #d9d9d9;
+			@include border-radius(5px);
+
+			>*{
+				padding: 23px 23px 0;
+			}
+
+			.title{
+				color: #7c4ea7;
+				font-size: 30px;
+				font-style: italic;
+			}
+
+			.thumb{
+				padding: 23px 0 0;
+
+				img{
+					max-width: 100%;
+				}
+			}
+		}
+	}	
+}
+/*------search-list------*/
+.search-list{
+	padding-top: 155px;
+
+	h2{
+		margin-bottom: 10px;
+		font-family: 'FontGeorgia';
+		font-style: italic;
+		font-size: 48px;
+		color: #7c4ea7;
+	}
+	
+	.list-head{
+		font-size: 12px;
+	}
+
+	.list-con{
+		a.title{
+			font-size: 20px;
+			font-style: italic;
+			font-family: 'FontGeorgia';
+			text-decoration: underline;
+		}
+
+		ul.items{
+			li{
+				@extend .clearfix;
+				height: 161px;
+					
+				>*{
+					padding: 30px 0;
+					border-top: 1px solid #cecece;
+				}
+
+				.image{
+					position: relative;
+					padding-right: 15px;
+					padding-left: 15px;
+					width: 16.4%;
+
+					i{
+						position: absolute;
+						top: 0;
+						left: 0;
+						background-image: url('../../images/share.png'); 
+					}
+
+					img{
+						width: 100%;
+					}
+				}
+
+				.teletext{
+					float: left;
+					width: 44%;
+
+					>*{
+						white-space: nowrap;
+						overflow: hidden;
+						text-overflow: ellipsis;
+					}
+				}
+			}
+		}
+	}
+}
+/*-------foot--------*/
+.baps-foot{
+	color:#fff;
+
+	.foot-contact{
+		line-height: $baps-head-H;
+		font-size: 40px;
+		font-family: 'FontGeorgia';
+		font-style: italic;
+		background: #4d4d4d;
+
+		.theme{
+			font-size: 40px;
+		}
+	}
+	.foot-sitemap{
+		padding: 40px 0;
+		background: #000;
+		font-size: 12px;
+
+		>div>div{
+			&:first-of-type{
+				margin-top: 28px;
+			}
+
+			strong{
+				display: block;
+				padding-bottom: 8px;
+				font-size: 14px;
+			}
+		}
+		
+		.other{
+			float: left;
+			margin-left: 30px;
+			width: 210px;
+
+			p{
+				margin: 5px 0 14px;
+				color: #ddd;
+			}
+		}
+
+		ul{
+			li{				
+    			padding: 5px 0;
+				border-bottom: 1px solid #4d4d4d;
+
+				a{
+					color: #ddd;
+				}
+			}
+		}
+	}
+}
+
+/*===================baps-pages tablet======================*/
+@media (max-width: $screen-pc) and (min-width: $screen-tablet) {
+	.baps-head{
+		text-align: center;
+
+		h1{
+			float: none;
+		}
+
+	    ul.top-account{
+			float: none;
+			display: block;
+			padding-top: 20px;
+			line-height: 1;
+	    }
+	}
+	/*-------nav-wrapper--------*/
+	.baps-nav{
+		.nav-area{
+			>ul{
+				>li{
+					.parent-menu{
+						padding: 23px 12px;
+						font-size: 14px;
+					}
+				}
+			}
+		}
+	}
+	/*-------home--------*/
+	.baps_home{
+		.home-tit{
+			font-size: 46px;
+		}
+	}
+	/*-------filter-container--------*/
+	.filter-container{
+		.isotope-item{
+			figure{
+				.title{
+					font-size: 22px;
+				}
+			}
+		}
+	}
+	/*------search-list------*/
+	.search-list{
+		h2{
+			font-size: 38px;
+		}
+
+		.list-con{
+			a.title{
+				font-size: 16px;
+			}
+
+			ul.items{
+				li{
+					.image{
+						width: 18%;
+					}
+
+					.teletext{
+						width: 42%;
+					}
+				}
+			}
+		}
+	}
+	/*-------foot--------*/
+	.baps-foot{
+		.foot-sitemap{
+			.other{
+				margin: 40px 0 0;
+				padding-left: 100px;
+				width: 538px;
+			}
+		}
+	}
+}
+/*===================baps-pages mobile======================*/
+@media (max-width: $screen-phone) {
+	.baps-head{
+		min-height: 60px;
+		line-height: 60px;
+
+		ul.top-account{
+			display: none;
+		}
+
+		h1{
+			padding-left: 16px;
+			font-size: 20px;
+			line-height: 60px;
+
+			.icons{
+				cursor: pointer;
+			}
+		}
+	}
+	/*-------baps-nav--------*/
+	.baps-nav{
+		display: none;
+	}
+	/*-------home--------*/
+	.baps-home{
+		&:before{
+			height: 350px;
+		}
+
+		.home-tit{
+			padding: 60px 0 20px;
+			font-size: 34px;
+		}
+	}
+	/*-------search--------*/
+	.baps-search{
+		&:before{
+			height: 60px;
+		}
+	}
+	/*-------filter-container--------*/
+	.filter-container{
+		margin-top: 0;
+		padding: 0 16px 80px;
+
+		.isotope-item{
+			position: static;
+			width: 100%;
+		}
+	}
+	/*------search-list------*/
+	.search-list{
+		padding-top: 88px;
+
+		h2{
+			font-size: 32px;
+		}
+
+		.list-head{
+			padding: 17px;
+		}
+
+		.list-con{
+			a.title{
+
+			}
+
+			ul.items{
+				li{
+					height: auto;
+
+					.image{
+						width: 35%;
+					}
+
+					.teletext{
+						width: 65%;
+					}
+				}
+			}
+		}
+	}
+}

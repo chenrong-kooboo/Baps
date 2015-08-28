@@ -1,0 +1,124 @@
+<!--#include file="inc/baps-source.html" -->
+<!--#include file="inc/baps-head.html" -->
+<!--#include file="inc/baps-nav.html" -->
+<!--#include file="inc/baps-mobile-nav.html" -->
+<div class="baps-home pos-r">
+	<div class="baps-container pos-r">
+		<div class="row">
+			<h2 class="home-tit">Vinden wat je zoekt in de straat</h2>
+			<form class="search-wrapper offset-top1">
+				<div class="search-select">
+					<select>
+						<option>In mode & beauty</option>
+       					<option>The second option</option>
+					</select>
+				</div>
+				<div class="search-input">
+					<input type="text" name="search" placeholder="Zoke op merk,winkel of locatie" />
+					<button class="icon-search" type="submit"></button>
+				</div>
+			</form>
+			<div class="filter-container">
+				<ul>
+					<li class="isotope-item" style="left: 0; top: 5px;">
+						<figure>
+							<h3 class="title">Populaire shops</h3>
+							<div class="widget-shop">
+								<a href="#" class="shop-item clearfix">
+									<span class="pull-left"><img src="../../assets/images/baps/De-Lingerie-buiten_fotovw.jpg" /></span>
+									<span>
+										<b>Avanti Beverwijk</b>
+										Beverwijk
+									</span>
+								</a>
+								<a href="#" class="shop-item clearfix">
+									<span class="pull-left"><img src="../../assets/images/baps/De-Lingerie-buiten_fotovw.jpg" /></span>
+									<span>
+										<b>Avanti Beverwijk</b>
+										Beverwijk
+									</span>
+								</a>
+								<a href="#" class="shop-item clearfix">
+									<span class="pull-left"><img src="../../assets/images/baps/De-Lingerie-buiten_fotovw.jpg" /></span>
+									<span>
+										<b>Avanti Beverwijk</b>
+										Beverwijk
+									</span>
+								</a>
+							</div>
+						</figure>
+					</li>
+					<li class="isotope-item" style="left: 33.3333%; top: 5px;">
+						<figure>
+							<h3 class="title">Populaire shops</h3>
+							<div class="widget-product gap-20-mb">
+								<div class="product-item">
+									<a href="#">
+										<div class="img">
+											<img src="https://www.shopdichtbij.nl/_Product%20Thumbs/CE/8007FD2B008579EDB5F6B689D1FDF0.jpg" />
+										</div>
+										<div class="info">
+											<span>Callaway</span>
+											<span>€ 249,95</span>
+											<span>Herqua Hoogeveen</span>
+										</div>
+									</a>
+								</div>
+								<div class="product-item">
+									<a href="#">
+										<div class="img">
+											<img src="https://www.shopdichtbij.nl/_Product%20Thumbs/CE/8007FD2B008579EDB5F6B689D1FDF0.jpg" />
+										</div>
+										<div class="info">
+											<span>Callaway</span>
+											<span>€ 249,95</span>
+											<span>Herqua Hoogeveen</span>
+										</div>
+									</a>
+								</div>
+								<div class="product-item">
+									<a href="#">
+										<div class="img">
+											<img src="../../assets/images/baps/De-Lingerie-buiten_fotovw.jpg" />
+										</div>
+										<div class="info">
+											<span>Callaway</span>
+											<span><del>€ 249,95</del>&nbsp;&nbsp;€ 249,95</span>
+											<span>Herqua Hoogeveen</span>
+										</div>
+									</a>
+								</div>
+								<div class="product-item">
+									<a href="#">
+										<div class="img">
+											<img src="../../assets/images/baps/De-Lingerie-buiten_fotovw.jpg" />
+										</div>
+										<div class="info">
+											<span>Callaway</span>
+											<span>€ 249,95</span>
+											<span>Herqua Hoogeveen</span>
+										</div>
+									</a>
+								</div>
+							</div>
+						</figure>	
+					</li>
+					<li class="isotope-item" style="left: 66.6666%; top: 5px;">
+						<figure>
+							<h3 class="title">Populaire shops</h3>
+							<figcaption>
+								Tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, <a href="#">feugiat vitae</a>, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. 
+							</figcaption>
+							<p class="gap-20-mb"><a href="project.html">Staat jouw mustsee erbij? -></a></p>
+							<a href="#" class="thumb">
+								<img src="http://www.17sucai.com/preview/102093/2014-07-17/%E6%B2%B9%E7%94%BB%E8%89%B2%E5%BD%A9Html5%E7%BD%91%E7%AB%99%E6%A8%A1%E6%9D%BF/img/dummies/featured/01.jpg" alt="alt" />
+							</a>
+						</figure>	
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+<!--#include file="inc/baps-foot.html" -->
+	

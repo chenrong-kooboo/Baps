@@ -1,0 +1,52 @@
+/* slider module
+ * -------------------------- */
+.focus-slider-box{
+	.slide-box{
+		position: relative;
+		
+		img{
+			width: auto\9;
+		    height: auto;
+		    max-width: 100%;
+		    vertical-align: middle;
+		    border: 0;
+		}
+
+		@mixin p-n-index{
+			position: absolute;
+			top: 178px;
+			z-index: 10;
+			text-decoration: none;
+		}
+		@mixin p-n{
+			top: 84px;
+			width: 20px;
+			height: 30px;
+			color: #fff;
+			font-size: 50px;
+		}
+
+		.prev, .next{
+			@include p-n-index;
+			@include p-n;
+		}
+
+		.prev{left: 0;}
+		.next{right: 0;}
+
+		.indexs{
+			@include p-n-index;
+			width:100%;
+			text-align:center;
+			
+			>a{
+				display: inline-block;
+				margin-right: 3px;
+				width: 15px;
+				height: 15px;
+				background-color: #000;
+				@include border-radius(7px);
+			}
+		}
+	}
+}

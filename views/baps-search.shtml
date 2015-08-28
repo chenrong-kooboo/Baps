@@ -1,0 +1,164 @@
+<!--#include file="inc/baps-source.html" -->
+<!--#include file="inc/baps-head.html" -->
+<!--#include file="inc/baps-nav.html" -->
+<div class="baps-search pos-r">
+	<div class="baps-container pos-r">
+		<div class="row">
+			<div class="widget-sider search span-b-4">
+				<h3><i class="icons-close-other"></i>Verfijn zoekopdrancht</h3>
+				<form action="">
+					<div class="form-group offset-top-22">
+						<strong>KIES JE WINKELNAAM</strong>
+						<input type="text" class="otherType" placeholder="test"/>
+					</div>
+					<div class="form-group">
+						<strong>KIES JE WINKELNAAM</strong>
+						<input type="text" placeholder="test"/>
+					</div>
+					<div class="form-group">
+						<strong>KIES JE WINKELNAAM</strong>
+						<input type="text" placeholder="test"/>
+					</div>
+					<a href="#" class="add-prev">Merk toevoegen</a>
+					<div class="form-group zoeken">
+						<strong>Zoeken in:</strong>
+						<input type="checkbox" class="checkbox-1" id="checkbox-1" />
+						<label class="checkbox" for="checkbox-1">De winkelstraat</label>
+						<input type="checkbox" class="checkbox-2" id="checkbox-2" />
+						<label class="checkbox" for="checkbox-2">Webshop*</label>
+						<p class="notes">* Fysieke winkels die ook een webshop hebben</p>
+					</div>
+					<div class="form-group">
+						<strong>Kies een productgroep:</strong>
+						<input type="checkbox" class="checkbox-3" id="checkbox-3" />
+						<label class="checkbox" for="checkbox-3">Dameskleding</label>
+
+						<input type="checkbox" class="checkbox-4" id="checkbox-4" />
+						<label class="checkbox" for="checkbox-4">Dameskleding</label>
+
+						<input type="checkbox" class="checkbox-5" id="checkbox-5" />
+						<label class="checkbox" for="checkbox-5">Dameskleding</label>
+
+						<input type="checkbox" class="checkbox-6" id="checkbox-6" />
+						<label class="checkbox" for="checkbox-6">Dameskleding</label>
+					</div>
+					<div class="form-group">
+						<strong>Kies je favoriete stijl:</strong>
+						<input type="checkbox" class="checkbox-7" id="checkbox-7" />
+						<label class="checkbox" for="checkbox-7">Dameskleding</label>
+
+						<input type="checkbox" class="checkbox-8" id="checkbox-8" />
+						<label class="checkbox" for="checkbox-8">Dameskleding</label>
+
+						<input type="checkbox" class="checkbox-9" id="checkbox-9" />
+						<label class="checkbox" for="checkbox-9">Dameskleding</label>
+					</div>
+					<div class="form-group">
+						<a href="#" class="btn btn-primary">Toon resultaten</a>
+					</div>
+					<a href="#">Beperkt zoeken</a>
+				</form>
+			</div>
+			<div class="search-list">
+				<div class="list-head">
+					<strong>MODE & BEAUTY</strong>
+					<h2>495 resultaten gevonden</h2>
+					<div class="breadcrumb">
+						<span>Je hebt gezocht op:</span>
+						<a href="#">amsterdam</a>
+					</div>
+				</div>
+				<div class="list-con">
+					<ul class="items">
+						<li>
+							<div class="image pull-left">
+								<i class="icons-sale"></i>
+								<img src="../assets/images/baps/Baps_desktop_v02.jpg" />
+							</div>
+							<div class="teletext">
+								<p class="offset-top-12">
+									<a href="#" class="title">Chasin' Store Amsterdam Wolvenstraat</a>
+								</p>
+								<strong>Nieuwendijk 209, AMSTERDAM 020-6209940</strong>
+								<p>
+									<b>Merken:</b> G-Star RAW, Replay, Hilfiger Denim, Nudie Jeans, Superdry, Anerkje
+								</p>
+							</div>
+						</li>
+						<li>
+							<div class="image pull-left">
+								<i class="icons-sale"></i>
+								<img src="../assets/images/baps/Baps_desktop_v02.jpg" />
+							</div>
+							<div class="teletext">
+								<p class="offset-top-12">
+									<a href="#" class="title">Chasin' Store Amsterdam Wolvenstraat</a>
+								</p>
+								<strong>Nieuwendijk 209, AMSTERDAM 020-6209940</strong>
+								<p>
+									<b>Merken:</b> G-Star RAW, Replay, Hilfiger Denim, Nudie Jeans, Superdry, Anerkje
+								</p>
+							</div>
+						</li>
+					</ul>
+					<div class="article">
+						<div class="article-con">
+							<h3>Online kopen bij échte winkels</h3>
+							<p>
+								Ben jij op zoek naar een specifiek item? Bekijk hier het online aanbod van échte winkels. Je kan dan niet alleen bestellen, maar ook reserveren en ophalen in de winkel. Super toch!
+							</p>
+						</div>
+					</div>
+					<ul class="items">
+						<li>
+							<div class="image pull-left">
+								<i class="icons-sale"></i>
+								<img src="../assets/images/baps/Baps_desktop_v02.jpg" />
+							</div>
+							<div class="teletext">
+								<p class="offset-top-12">
+									<a href="#" class="title">Chasin' Store Amsterdam Wolvenstraat</a>
+								</p>
+								<strong>Nieuwendijk 209, AMSTERDAM 020-6209940</strong>
+								<p>
+									<b>Merken:</b> G-Star RAW, Replay, Hilfiger Denim, Nudie Jeans, Superdry, Anerkje
+								</p>
+							</div>
+						</li>
+						<li>
+							<div class="image pull-left">
+								<i class="icons-sale"></i>
+								<img src="../assets/images/baps/Baps_desktop_v02.jpg" />
+							</div>
+							<div class="teletext">
+								<p class="offset-top-12">
+									<a href="#" class="title">Chasin' Store Amsterdam Wolvenstraat</a>
+								</p>
+								<strong>Nieuwendijk 209, AMSTERDAM 020-6209940</strong>
+								<p>
+									<b>Merken:</b> G-Star RAW, Replay, Hilfiger Denim, Nudie Jeans, Superdry, Anerkje
+								</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="page-wrapper">
+					<ul class="pagination">
+						<li class="text"><span>Pagina：</span></li>
+					    <li class="btn-prev"><a href="#"></a></li>
+					    <li class="active"><a href="">1</a></li>
+					    <li><a href="">2</a></li>
+					    <li><a href="">3</a></li>
+					    <li><a href="">4</a></li>
+					    <li><a href="">5</a></li>
+					    <li class="text"><span>…</span></li>
+					    <li class="btn-next"><a href="#"></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<a href="#" class="widget-sider-menu mobile"></a>
+</div>
+<!--#include file="inc/baps-foot.html" -->
+	

@@ -1,0 +1,138 @@
+<!--#include file="inc/baps-source.html" -->
+<!--#include file="inc/baps-head.html" -->
+<!--#include file="inc/baps-nav.html" -->
+<!--#include file="inc/baps-mobile-nav.html" -->
+<div class="baps-detail pos-r">
+	<div class="baps-container pos-r">
+		<div class="row">
+			<div class="span-b-6">
+				<!-- focus_img_box -->
+				<div class="focus-slider-box offset-bottom1">
+					<div class="slide-box js-slider-box">
+						<a href="javascript:;" class="prev icon-angle-left"></a>
+						<a href="javascript:;" class="next icon-angle-right"></a>
+						<!-- <p class="indexs"></p> -->
+						<div class="slide_pic">
+							<ul class="items">
+								<li>
+									<a href="javascript:;">
+										<img src="../assets/images/slider/property-large-1.jpg" />
+									</a>
+								</li>
+								<li class="hidden">
+									<a href="javascript:;">
+										<img src="../assets/images/slider/property-large-1.jpg" />
+									</a>
+								</li>
+								<li class="hidden">
+									<a href="javascript:;">
+										<img src="../assets/images/slider/property-large-1.jpg" />
+									</a>
+								</li>
+								<li class="hidden">
+									<a href="javascript:;">
+										<img src="../assets/images/slider/property-large-1.jpg" />
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!-- focus_img_box end -->
+				<div class="article article-hotspot offset-bottom1">
+					<div class="article-con">
+						<p>Boys, boys, boys < 3</p>
+						<p>
+							Heb je de campagne gezien? Allemaal knappe (half blote!) mannen.. zucht.. Oh ja, en ze verkopen ook erg leuke kleding ;-) 
+						</p>
+						<p>
+							<strong>TIP: Sla de winkel op als favoriet!</strong>
+						</p>
+					</div>
+				</div>
+				<div class="content-wrapper">
+					<ul>
+						<li>
+							<h2>Onze winkel:</h2>
+							<p>
+								A&F staat bekend om zijn sportieve kleding zoals T-shirts en sportbroeken met logo. Ook de campagnes van het merk zijn berucht, omdat hierin mannelijke modellen met een afgetraind, ontbloot bovenlichaam poseren. 
+							</p>
+							<p>
+								In de Amsterdamse winkel van het modemerk staan goedlachse 'all-american guys and girls' voor je klaar!
+							</p>
+							<a href="#">Bekijk hier de andere winkels in de Leidsestraat!</a>
+						</li>
+						<li>
+							<h3>Openingstijden:</h3>
+							<dl>
+								<dt>Maandag:</dt>
+								<dd>11.00 - 18.00 uur</dd>
+							</dl>
+							<dl>
+								<dt>Maandag:</dt>
+								<dd>11.00 - 18.00 uur</dd>
+							</dl>
+							<dl>
+								<dt>Maandag:</dt>
+								<dd>11.00 - 18.00 uur</dd>
+							</dl>
+							<dl>
+								<dt>Maandag:</dt>
+								<dd>11.00 - 18.00 uur</dd>
+							</dl>
+							<dl>
+								<dt>Maandag:</dt>
+								<dd>11.00 - 18.00 uur</dd>
+							</dl>
+						</li>
+						<li>
+							<h3>Onze winkel:</h3>
+							<p>
+								A&F staat bekend om zijn sportieve kleding zoals T-shirts en sportbroeken met logo. Ook de campagnes van het merk zijn berucht, omdat hierin mannelijke modellen met een afgetraind, ontbloot bovenlichaam poseren. 
+							</p>
+							<p>
+								In de Amsterdamse winkel van het modemerk staan goedlachse 'all-american guys and girls' voor je klaar!
+							</p>
+							<a href="#">Bekijk hier de andere winkels in de Leidsestraat!</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="span-b-4 span-type1">
+				<div class="widget-block brand">
+					<div class="brand-logo">
+						<img src="../assets/images/baps/aber-fitch.jpg" />
+					</div>
+					<p><strong>Abercrombie & Fitch</strong></p>
+					<p>Leidsestraat 36</p>
+					<p>1017PB Amsterdam</p>
+					<p>Telefoon:0205203910</p>
+					<p>Website:	<a href="#">www.abercrombie.com</a></p>
+					<p>Locatie: <a href="#">route naar de winkel</a></p>
+					<p class="offset-top-22"><strong>Wij verkopen:</strong></p>
+					<ul class="type-circle offset-left1">
+						<li>Abercrombie & Fitch</li>
+						<li>Hollister</li>
+						<li>Abercrombie</li>
+						<li>abercrombie Kids</li>
+					</ul>
+					<p class="offset-top-22"><strong>Onze stijlen zijn:</strong></p>
+					<p>Dames</p>
+					<ul class="type-circle offset-left1">
+						<li>Street & Trendy</li>
+					</ul>
+				</div>
+				<div class="widget-block ad desktop blk">
+					<div class="image">
+						<img src="../assets/images/baps/02-Store-detail.jpg" />
+					</div>
+					<div class="ad-list">
+						<img src="../assets/images/baps/03-Store-detail.jpg" />
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--#include file="inc/baps-foot.html" -->
+	

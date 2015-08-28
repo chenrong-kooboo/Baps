@@ -1,0 +1,79 @@
+/*===================sprite start======================*/
+input,button,select,textarea{outline:none}
+a{color: #7c4ea7;}
+
+.baps-container{margin: 0 auto;width: 970px;}
+.span-b-12{
+  margin-left: 20px;
+  width: 980px;
+}
+.span-b-6{
+    width: 625px;
+}
+.span-b-4{
+    width: 320px;
+
+    &.span-type1{
+        margin-left: 0;
+        padding-left: 16px;
+    }
+}
+.span-b-2{
+    width: 200px;
+}
+
+/*offset-top*/
+.offset-top1{
+    margin-top: 45px;
+}
+.offset-top3{
+    margin-top: 100px;
+}
+.offset-top-22{
+    margin-top: 22px;
+}
+.offset-top-12{
+    margin-top: 12px;
+}
+/*offset-bottom*/
+.offset-bottom1{
+    margin-bottom: 15px;
+}
+/*offset-right*/
+.offset-right1{
+    margin-right: 15px;
+}
+/*offset-left*/
+.offset-left1{
+    margin-left: 15px;
+}
+/*btn*/
+.btn-primary{
+    background: #7559b8;
+}
+/*ul style*/
+ul.type-circle{
+    list-style-type: disc;
+}
+/*===================tablet======================*/
+@media (max-width: $screen-pc) and (min-width: $screen-tablet) {
+    .baps-container{width: 768px;}
+    .span-b-12{
+        margin-left: 15px;
+        width: 768px; 
+    }
+    .span-b-6{
+        width: 530px;
+    }
+    .span-b-4{
+        width: 238px;
+    }
+}
+/*===================mobile======================*/
+@media (max-width: $screen-phone) {
+    .baps-container{width: auto;}
+    .span-b-12, .span-b-6, .span-b-4, .span-b-2{
+        margin-left: 0;
+        width: 100%;
+    }
+}

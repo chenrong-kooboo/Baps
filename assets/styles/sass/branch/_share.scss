@@ -1,0 +1,76 @@
+.icons {
+    display: inline-block;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+}
+.icons-facebook{
+	width: share-sprite-width(icon-facebook);
+	height: share-sprite-height(icon-facebook);
+	@include  share-sprite(icon-facebook);
+}
+
+.icons-twitter{
+	width: share-sprite-width(icon-twitter);
+	height: share-sprite-height(icon-twitter);
+	@include  share-sprite(icon-twitter);
+}
+
+.icons-insta{
+	width: share-sprite-width(icon-insta);
+	height: share-sprite-height(icon-insta);
+	@include  share-sprite(icon-insta);
+}
+
+.icons-blog{
+	width: share-sprite-width(icon-blog);
+	height: share-sprite-height(icon-blog);
+	@include  share-sprite(icon-blog);
+}
+
+.icons-hamburger{
+	width: share-sprite-width(icon-hamburger);
+	height: share-sprite-height(icon-hamburger);
+	@include  share-sprite(icon-hamburger);
+}
+
+.icons-close{
+	width: share-sprite-width(icon-close);
+	height: share-sprite-height(icon-close);
+	@include  share-sprite(icon-close);
+}
+
+.icons-close-other{
+	width: share-sprite-width(icon-close-other);
+	height: share-sprite-height(icon-close-other);
+	@include  share-sprite(icon-close-other);
+}
+
+.icons-check-desktop{
+	width: share-sprite-width(icon-check-desktop);
+	height: share-sprite-height(icon-check-desktop);
+	@include  share-sprite(icon-check-desktop);
+}
+
+.icons-uncheck-desktop{
+	width: share-sprite-width(icon-uncheck-desktop);
+	height: share-sprite-height(icon-uncheck-desktop);
+	@include  share-sprite(icon-uncheck-desktop);
+}
+
+.icons-sale{
+	width: share-sprite-width(icon-sale);
+	height: share-sprite-height(icon-sale);
+	@include  share-sprite(icon-sale);
+}
+
+.icons-hotspot{
+	width: share-sprite-width(icon-hotspot);
+	height: share-sprite-height(icon-hotspot);
+	@include  share-sprite(icon-hotspot);
+}
+
+.icons-shopcar{
+	width: share-sprite-width(icon-shopcar);
+	height: share-sprite-height(icon-shopcar);
+	@include  share-sprite(icon-shopcar);
+}
